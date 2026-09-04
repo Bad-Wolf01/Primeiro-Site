@@ -1,52 +1,15 @@
-*{
-    background-color: #29822F;
-    color:black
-}
-.contato {
-    /* border: 1px solid blue; */
-    background-color: azure;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-.info {
-    /* border: 1px solid green; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
- .mim {
-    /* border: 1px solid red; */
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color:rgb(199, 183, 102);
- }
-
-
- .sobre{ 
-    border: 2x green;
-    display: flex;
- }
-
- * {
-     margin: 0px;
-     padding: 0px;  
-    
-    }
-     
 /*CSS Vem aqui em baixo*/
-
-header {
-    background-color: #29822F;
-    padding: 25px 0px;
-    position: fixed;
-    width: 100%;
-}
 
 body {
     padding-inline: 10px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
-
 }
 
 body h1, h2, h3 {
@@ -65,7 +28,14 @@ body a {
 
 body a:hover {
     text-decoration: underline;
-    color:brown
+    color: brown
+}
+
+header {
+    background-color: blue;
+    padding: 25px 0px;
+    position: fixed;
+    width: 100%;
 }
 
 #apres {
@@ -74,24 +44,55 @@ body a:hover {
 
 }
 
+#contato {
+    margin: 20px 0px;
+}
+
 #sobre {
     margin: 20px 0px;
-    padding-top: 70px;
-
+    display: flex;
+    gap: 50;
+    padding-top: 6px;
+    padding-inline: 50;
+    flex-direction: row;
 }
 
 #habilidades {
-    margin-top: 20px;
-    padding-top: 60px;   
+    margin: 20px;
+}
+
+#habilidades h3 {
+    margin: 10px;
+}
+
+#habilidades h4 {
+    margin-top: 10px;
+}
+
+#habil h3{
+    text-align: center;
+}
+
+.habilidadesContainer {
+    border: blue solid 1px;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.habilidadesBloco {
+    border: red solid 1px;
 }
 
 footer {
-    background-color: #29822F;
+    padding: 20px 0px;
+    background-color: blue;
 }
 
 .icone {
-    fill:white;
-    stroke:black;
+    fill: blue;
+    stroke: black;
     stroke-width: 5px;
     width: 50px;
     height: 50px;
@@ -101,4 +102,45 @@ footer ul {
     display: flex;
     justify-content: space-around;
     list-style-type: nofbf
+}
+
+.iconSobre {
+    width: 20px;
+    height: 20px;
+}
+
+.blockIcon {
+    border: gray;
+    display: flex;
+    padding: 5px;
+}
+
+.linksIcon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.iconesBloco {
+    border: blue solid 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+.iconesContainer {
+    border: red solid 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.iconeLink {
+    width: 50px;
+    height: 50px;
 }
