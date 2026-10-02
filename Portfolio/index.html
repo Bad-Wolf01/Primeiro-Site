@@ -6,35 +6,74 @@
   <title>Lucas de Araújo Silva</title>
   <link rel="stylesheet" href="style.css"> <!-- Essa tag relaciona meus estilos -->
   <!-- ou podemos colocar a imagem no icone da pagina,<link rel="icon" href=assets/perfil.png-->
-  <script src="app.js"></script> <!-- Essa tag ativa o Javascript -->
+  <script src="app.js" defer></script> <!-- Essa tag ativa o Javascript -->
 </head>
 
 <body>
-  <header>
-    <a href="#apres">inicio</a>
-    <a href="#sobre">sobre mim</a>
-    <a href="#habilidades">habilidades</a>
-  </header>
+
+  <div class="janela">
+
+  <header class="barraTitulo">
+
+     <div class="tituloJanela">
+       Lucas de Araújo Silva.exe
+      </div>
+
+       <div class="botoesJanela">
+        <button>_</button>
+        <button>□</button>
+        <button>×</button>
+      </div>
+  </header>    
+
+<nav class="menu">
+    <a href="#apres">Inicio</a>
+    <a href="#sobre">Sobre mim</a>
+    <a href="#habilidades">Habilidades</a>
+
+    <svg class="iconTema" id="btnTema">
+      <use href="assets/circle-half.svg"></use>
+  </svg>
+</nav>
 
   <main>
     <section id="apres">
-      <h1>Lucas de Araújo Silva</h1>
-      <h2>Programador Full stack e Eletricista </h2>
+
+       <div class="tituloPainel">
+        Informações do usuário
+    </div>
+
+      <div class="conteudoApres">
 
       <img src="assets/clt.jpg" alt="foto de lucas de araujo" width="200px" />
+
+      <div>
+        <h1>Lucas de Araújo Silva</h1>
+        <h2>Programador Full Stack e Eletricista</h2>
+
+        <p>● Usuário online</p>
+    </div>
 
     </section>
     <hr>
 
-    <section id="contato">
-      <h3>CONTATO</h3>
-      <p> La1579157@gmail.com</p>
-      <p>(11) 996969275</p>
-      <p>São Paulo, SP, Brasil</p>
-      <a href="https://www.linkedin.com/in/lucas-de-ara%C3%BAjo-silva-799281264/" target="_blank">
-        linkedin
-      </a>
-    </section>
+     <div class="conteudoContato">
+
+        <h3>CONTATO</h3>
+
+        <p>La1579157@gmail.com</p>
+        <p>(11) 996969275</p>
+        <p>São Paulo, SP, Brasil</p>
+
+        <a href="https://www.linkedin.com/in/lucas-de-araujo-silva-799281264/" target="_blank">
+            LinkedIn
+        </a>
+
+    </div>
+
+</section>
+<hr>
+
     <hr>
 
     <section id="sobre">
@@ -115,6 +154,11 @@
       </li>
     </ul>
   </footer>
+  <div class="barraStatus">
+    <span>● ONLINE</span>
+    <span>Lucas.exe</span>
+    <span>2026</span>
+  </div>  
 </body>
 
 </html>
