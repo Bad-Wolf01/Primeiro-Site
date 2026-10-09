@@ -211,16 +211,25 @@ body a:hover {
 }
 
 #sobre {
-    margin: 20px 0px;
-    display: flex;
-    gap: 50;
-    padding-top: 6px;
-    padding-inline: 50;
-    flex-direction: row;
+    margin-bottom: 25px;
+
+    background-color: #d4d0c8;
+
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+
+    box-shadow: 2px 2px 0px #000000;
 }
 
 #habilidades {
-    margin: 20px;
+    margin-bottom: 25px;
+
+    background-color: #d4d0c8;
+
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+
+    box-shadow: 2px 2px 0px #000000;
 }
 
 #habilidades h3 {
@@ -365,4 +374,62 @@ main {
 
 .temaEscuro a:hover {
     color: lightblue;
-}    
+} 
+
+.conteudoSobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+.textoSobre {
+    max-width: 650px;
+    display: block;
+}
+
+.textoSobre h3 {
+    margin: 0 0 5px 0;
+}
+
+.textoSobre p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.conteudoHabilidades {
+    display: flex;
+    gap: 20px;
+}
+
+.blocoHabilidade {
+    flex: 1;
+
+    padding: 15px;
+
+    background-color: #eeeeee;
+
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080;
+}
+
+.blocoHabilidade h4 {
+    margin-bottom: 10px;
+
+    padding-bottom: 5px;
+
+    border-bottom: 1px solid #808080;
+
+    font-size: 14px;
+}
+
+.blocoHabilidade ul {
+    padding-left: 20px;
+}
+
+.blocoHabilidade li {
+    margin-bottom: 4px;
+
+    font-size: 13px;
+}
